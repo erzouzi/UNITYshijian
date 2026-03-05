@@ -1,0 +1,13 @@
+# 忽略所有大于10MB的图片和资源包
+*.png large
+*.unitypackage large
+# 忽略整个 ArtRes 资源目录
+/Assets/ArtRes/
+# Unity generated files
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Uu]serSettings/
