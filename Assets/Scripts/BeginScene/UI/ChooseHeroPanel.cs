@@ -103,10 +103,12 @@ public class ChooseHeroPanel : BasePanel
                 UpdateLockBtn();
                 
                 //提示面板 显示购买成功
+                UIManager.Instance.ShowPanel<TipPanel>().changeInfo("购买成功");
             }
             else
             {
                 //提示面板 显示金钱不足
+                UIManager.Instance.ShowPanel<TipPanel>().changeInfo("金钱不足");
             }
         });
         //更新模型显示
