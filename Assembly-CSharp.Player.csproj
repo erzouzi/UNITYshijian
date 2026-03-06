@@ -98,6 +98,7 @@
     <Compile Include="Assets\Scripts\UI\BasePanel.cs" />
     <Compile Include="Assets\Scripts\Json\LitJson\JsonReader.cs" />
     <Compile Include="Assets\ArtRes\Top-Down Graveyard\_Origin\Standard Assets\Effects\ImageEffects\Scripts\MotionBlur.cs" />
+    <Compile Include="Assets\Scripts\BeginScene\UI\ChooseScenePanel.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_DigitValidator.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_FrameRateCounter.cs" />
     <Compile Include="Assets\ArtRes\Tower Defense\Standard Assets\Character Controllers\Sources\Scripts\MouseLook.cs" />
@@ -124,6 +125,7 @@
     <Compile Include="Assets\ArtRes\Top-Down Graveyard\_Origin\Standard Assets\Effects\ImageEffects\Scripts\Fisheye.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark03.cs" />
     <Compile Include="Assets\ArtRes\Tower Defense\Standard Assets\Water (Pro Only)\Water4\Sources\Scripts\WaterBase.cs" />
+    <Compile Include="Assets\Scripts\Data\SceneInfo.cs" />
     <Compile Include="Assets\ArtRes\Top-Down Graveyard\_Origin\Standard Assets\Effects\ImageEffects\Scripts\ImageEffects.cs" />
     <Compile Include="Assets\Scripts\BeginScene\UI\TipPanel.cs" />
     <Compile Include="Assets\ArtRes\GabrielAguiarProductions\Unique_Projectiles_Volume_1\Scripts\CameraShakeSimpleScript.cs" />

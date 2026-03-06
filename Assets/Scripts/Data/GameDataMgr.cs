@@ -26,6 +26,9 @@ public class GameDataMgr
 
     //所有的角色数据
     public List<RoleInfo> roleInfoList;
+
+    //所有的场景数据
+    public List<SceneInfo> sceneInfoList;
     private GameDataMgr()
     {
         //初始一些默认数据
@@ -34,6 +37,8 @@ public class GameDataMgr
         roleInfoList=JsonMgr.Instance.LoadData<List<RoleInfo>>("RoleInfo");
         //获取玩家数据
         playerData=JsonMgr.Instance.LoadData<PlayerData>("PlayerData");
+        //读取场景数据
+        sceneInfoList=JsonMgr.Instance.LoadData<List<SceneInfo>>("SceneInfo");
     }
 
     /// <summary>
