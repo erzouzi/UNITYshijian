@@ -1,9 +1,4 @@
-# 忽略所有大于10MB的图片和资源包
-*.png large
-*.unitypackage large
-# 忽略整个 ArtRes 资源目录
-/Assets/ArtRes/
-# Unity generated files
+# Unity generated
 /[Ll]ibrary/
 /[Tt]emp/
 /[Oo]bj/
@@ -11,3 +6,24 @@
 /[Bb]uilds/
 /[Ll]ogs/
 /[Uu]serSettings/
+
+# Visual Studio
+*.csproj
+*.sln
+*.suo
+*.user
+.vs/
+
+# Rider
+.idea/
+
+# OS generated
+.DS_Store
+Thumbs.db
+
+# Large files (use Git LFS instead)
+# *.png
+# *.unitypackage
+
+# Ignore specific asset folders if needed
+/Assets/ArtRes/
