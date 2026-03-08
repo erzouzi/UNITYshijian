@@ -84,6 +84,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1975428186822910779}
+  - component: {fileID: 4765877051572683519}
   m_Layer: 5
   m_Name: TowerBtn3
   m_TagString: Untagged
@@ -113,6 +114,21 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 180, y: 280}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &4765877051572683519
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 497570326166751803}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e15709f2335676044b84ff7e05b6a097, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  imgPic: {fileID: 2681936647410593674}
+  txtTip: {fileID: 4928738676774442516}
+  txtMoney: {fileID: 4042294065585281900}
 --- !u!1 &1119954508440857345
 GameObject:
   m_ObjectHideFlags: 0
@@ -420,7 +436,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
   m_AnchoredPosition: {x: 362, y: -31}
-  m_SizeDelta: {x: 500, y: 64}
+  m_SizeDelta: {x: 500, y: 60}
   m_Pivot: {x: 0, y: 1}
 --- !u!222 &9065759728277362493
 CanvasRenderer:
@@ -1063,6 +1079,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2872553705757263325}
+  - component: {fileID: 5923036532560616357}
   m_Layer: 5
   m_Name: TowerBtn1
   m_TagString: Untagged
@@ -1092,6 +1109,21 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 180, y: 280}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &5923036532560616357
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4072370225330375542}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e15709f2335676044b84ff7e05b6a097, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  imgPic: {fileID: 381111435902626814}
+  txtTip: {fileID: 5856472859708701745}
+  txtMoney: {fileID: 3472976650206321988}
 --- !u!1 &4185902797144884143
 GameObject:
   m_ObjectHideFlags: 0
@@ -2193,6 +2225,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6802332327665383299}
+  - component: {fileID: 8298863004897194367}
   m_Layer: 5
   m_Name: TowerBtn2
   m_TagString: Untagged
@@ -2222,6 +2255,21 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 180, y: 280}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &8298863004897194367
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8880659646169871316}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e15709f2335676044b84ff7e05b6a097, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  imgPic: {fileID: 3133859882542935367}
+  txtTip: {fileID: 3549530001997750969}
+  txtMoney: {fileID: 8049972482246565291}
 --- !u!1 &8898924660581442791
 GameObject:
   m_ObjectHideFlags: 0
@@ -2504,6 +2552,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7316834645473020294}
   - component: {fileID: 5820183021599036742}
+  - component: {fileID: 5304973501356236136}
   m_Layer: 5
   m_Name: GamePanel
   m_TagString: Untagged
@@ -2548,3 +2597,24 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 9157390831185035803}
   m_CullTransparentMesh: 1
+--- !u!114 &5304973501356236136
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9157390831185035803}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76048b1d97f92eb4f9dced6f3df1c1d1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isShow: 0
+  imgHP: {fileID: 4967515628969811002}
+  txtHP: {fileID: 9034081716508206618}
+  txtWave: {fileID: 2299075115571830310}
+  txtMoney: {fileID: 4525410806077903482}
+  hpW: 500
+  btnQuit: {fileID: 5433029265835392713}
+  botTrans: {fileID: 632553802541583648}
+  towerBtns: []

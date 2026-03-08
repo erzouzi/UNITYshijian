@@ -133,6 +133,7 @@
     <Compile Include="Assets\ArtRes\Tower Defense\Standard Assets\Water (Pro Only)\Water4\Sources\Scripts\GerstnerDisplace.cs" />
     <Compile Include="Assets\ArtRes\MagicArsenal\Demo\Scripts\MagicDragMouseOrbit.cs" />
     <Compile Include="Assets\ArtRes\Top-Down Graveyard\_Origin\Standard Assets\Effects\ImageEffects\Scripts\ColorCorrectionCurves.cs" />
+    <Compile Include="Assets\Scripts\GameScene\UI\TowerBtn.cs" />
     <Compile Include="Assets\Scripts\Json\LitJson\IJsonWrapper.cs" />
     <Compile Include="Assets\Scripts\Data\RoleInfo.cs" />
     <Compile Include="Assets\ArtRes\Top-Down Graveyard\_Origin\Standard Assets\Effects\ImageEffects\Scripts\Bloom.cs" />
@@ -184,6 +185,7 @@
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextMeshProFloatingText.cs" />
     <Compile Include="Assets\ArtRes\MagicArsenal\Demo\Scripts\MagicFireProjectile.cs" />
     <Compile Include="Assets\Scripts\Json\LitJson\JsonException.cs" />
+    <Compile Include="Assets\Scripts\GameScene\UI\GamePanel.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ShaderPropAnimator.cs" />
     <Compile Include="Assets\ArtRes\Tower Defense\Standard Assets\Water (Pro Only)\Water4\Sources\Scripts\Displace.cs" />
     <Compile Include="Assets\ArtRes\GabrielAguiarProductions\Unique_Projectiles_Volume_1\Scripts\UniqueProjectiles\RotateToMouseScript.cs" />
