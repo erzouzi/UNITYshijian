@@ -113,6 +113,7 @@
     <Compile Include="Assets\ArtRes\Top-Down Graveyard\_Origin\Standard Assets\Effects\ImageEffects\Scripts\Antialiasing.cs" />
     <Compile Include="Assets\ArtRes\Top-Down Graveyard\_Origin\Standard Assets\Effects\ImageEffects\Scripts\ColorCorrectionRamp.cs" />
     <Compile Include="Assets\ArtRes\Top-Down Graveyard\_Origin\Standard Assets\Effects\ImageEffects\Scripts\ImageEffectBase.cs" />
+    <Compile Include="Assets\Scripts\GameScene\CameraMove.cs" />
     <Compile Include="Assets\ArtRes\Top-Down Graveyard\_Origin\Standard Assets\Effects\ImageEffects\Scripts\SepiaTone.cs" />
     <Compile Include="Assets\ArtRes\GabrielAguiarProductions\Unique_Projectiles_Volume_1\Scripts\UniqueProjectiles\SpawnProjectilesScript.cs" />
     <Compile Include="Assets\ArtRes\Top-Down Graveyard\_Origin\Standard Assets\Effects\ImageEffects\Scripts\NoiseAndScratches.cs" />
@@ -175,6 +176,7 @@
     <Compile Include="Assets\Scripts\Json\LitJson\JsonMapper.cs" />
     <Compile Include="Assets\ArtRes\PureNature\Scripts\CloudsVolume.cs" />
     <Compile Include="Assets\ArtRes\Top-Down Graveyard\_Origin\Standard Assets\Effects\ImageEffects\Scripts\DepthOfFieldDeprecated.cs" />
+    <Compile Include="Assets\Scripts\GameScene\Object\PlayerObject.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextSelector_B.cs" />
     <Compile Include="Assets\ArtRes\Top-Down Graveyard\_Origin\Standard Assets\Effects\ImageEffects\Scripts\TiltShift.cs" />
     <Compile Include="Assets\Scripts\Data\PlayerData.cs" />

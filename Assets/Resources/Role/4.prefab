@@ -272,6 +272,37 @@ SkinnedMeshRenderer:
     m_Center: {x: -0.89524114, y: 0.07113559, z: -0.00000031292439}
     m_Extent: {x: 0.27295175, y: 0.21843725, z: 0.16184956}
   m_DirtyAABB: 0
+--- !u!1 &1189697807199731709
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 9207570099059972528}
+  m_Layer: 0
+  m_Name: gunPoint
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &9207570099059972528
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1189697807199731709}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: -0.7071068, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: -1.066, y: -0.105, z: -0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 8342737264010927691}
+  m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
 --- !u!1 &1675550045630029997
 GameObject:
   m_ObjectHideFlags: 0
@@ -3341,7 +3372,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
-    m_AddedGameObjects: []
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: 400000, guid: abc7b86a7ff581f46b9b6de78ebb1ebe, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 9207570099059972528}
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: abc7b86a7ff581f46b9b6de78ebb1ebe, type: 3}
 --- !u!4 &8342737264010927691 stripped
