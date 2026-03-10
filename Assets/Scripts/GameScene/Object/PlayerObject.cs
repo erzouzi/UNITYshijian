@@ -55,8 +55,8 @@ public class PlayerObject : MonoBehaviour
         {
             animator.SetLayerWeight(1, 1);
         }
-        else
-        {
+        else if(Input.GetKeyUp(KeyCode.LeftShift))
+        { 
             animator.SetLayerWeight(1, 0);
         }
 
