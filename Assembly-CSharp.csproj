@@ -109,7 +109,6 @@
     <Compile Include="Assets\ArtRes\Top-Down Graveyard\_Origin\Standard Assets\Effects\ImageEffects\Scripts\BloomOptimized.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextMeshSpawner.cs" />
-    <Compile Include="Assets\Scripts\GameScene\MainTowerObject.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark02.cs" />
     <Compile Include="Assets\ArtRes\Top-Down Graveyard\_Origin\Standard Assets\Effects\ImageEffects\Scripts\Antialiasing.cs" />
     <Compile Include="Assets\ArtRes\Top-Down Graveyard\_Origin\Standard Assets\Effects\ImageEffects\Scripts\ColorCorrectionRamp.cs" />
@@ -117,6 +116,7 @@
     <Compile Include="Assets\Scripts\Data\MonsterInfo.cs" />
     <Compile Include="Assets\Scripts\GameScene\CameraMove.cs" />
     <Compile Include="Assets\ArtRes\Top-Down Graveyard\_Origin\Standard Assets\Effects\ImageEffects\Scripts\SepiaTone.cs" />
+    <Compile Include="Assets\Scripts\GameScene\Object\MonsterObject.cs" />
     <Compile Include="Assets\ArtRes\GabrielAguiarProductions\Unique_Projectiles_Volume_1\Scripts\UniqueProjectiles\SpawnProjectilesScript.cs" />
     <Compile Include="Assets\ArtRes\Top-Down Graveyard\_Origin\Standard Assets\Effects\ImageEffects\Scripts\NoiseAndScratches.cs" />
     <Compile Include="Assets\ArtRes\Tower Defense\Standard Assets\Image Effects (Pro Only)\SSAOEffect.cs" />
@@ -175,6 +175,7 @@
     <Compile Include="Assets\ArtRes\Tower Defense\Standard Assets\Image Effects (Pro Only)\VortexEffect.cs" />
     <Compile Include="Assets\Scripts\BeginScene\UI\BeginPanel.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexZoom.cs" />
+    <Compile Include="Assets\Scripts\GameScene\Object\MainTowerObject.cs" />
     <Compile Include="Assets\Scripts\Json\LitJson\JsonMapper.cs" />
     <Compile Include="Assets\ArtRes\PureNature\Scripts\CloudsVolume.cs" />
     <Compile Include="Assets\ArtRes\Top-Down Graveyard\_Origin\Standard Assets\Effects\ImageEffects\Scripts\DepthOfFieldDeprecated.cs" />
@@ -198,6 +199,7 @@
     <Compile Include="Assets\Scripts\UI\UIManager.cs" />
     <Compile Include="Assets\Scripts\Json\LitJson\JsonMockWrapper.cs" />
     <Compile Include="Assets\ArtRes\Tower Defense\Standard Assets\Image Effects (Pro Only)\ContrastStretchEffect.cs" />
+    <Compile Include="Assets\Scripts\GameScene\MonsterPoint.cs" />
     <Compile Include="Assets\ArtRes\Tower Defense\Standard Assets\Image Effects (Pro Only)\ImageEffects.cs" />
     <Compile Include="Assets\ArtRes\Top-Down Graveyard\_Origin\Standard Assets\Effects\ImageEffects\Scripts\PostEffectsHelper.cs" />
     <Compile Include="Assets\ArtRes\Top-Down Graveyard\_Origin\Standard Assets\Effects\ImageEffects\Scripts\BlurOptimized.cs" />
