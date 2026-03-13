@@ -55,10 +55,12 @@ public class MonsterObject : MonoBehaviour
         if (hp < 0)
         {
             //死亡
+            Dead();
         }
         else
         {
             //播放音效
+            GameDataMgr.Instance.PlaySound("Music/Wound");
         }
     }
 
@@ -72,7 +74,7 @@ public class MonsterObject : MonoBehaviour
         //播放死亡动画
         animator.SetBool("Dead", true);
         //播放音效
-
+        GameDataMgr.Instance.PlaySound("Music/dead");
         //加钱--我们之后通过关卡管理类 来管理游戏中的对象 通过它来让玩家加钱
 
 
@@ -84,6 +86,16 @@ public class MonsterObject : MonoBehaviour
     public void DeadEvent()
     {
         //死亡动画播放完毕后移除对象
+        GameLevelMgr.Instance.ChangeMonsterNum(-1);
+        Destroy(this.gameObject,5f);
+
+        //怪物死亡时 检测游戏是否结束
+        if (GameLevelMgr.Instance.CheckOver())
+        {
+            GameOverPanel panel=UIManager.Instance.ShowPanel<GameOverPanel>();
+            panel.InitInfo(GameLevelMgr.Instance.player.money, true);
+        }
+
     }
 
     //出生过后再移动
@@ -119,7 +131,10 @@ public class MonsterObject : MonoBehaviour
     {
         //范围检测进行伤害判断
         Collider[] colliders = Physics.OverlapSphere(this.transform.position+this.transform.forward+this.transform.up,1f,LayerMask.GetMask("MainTower"));
-        for(int i = 0; i < colliders.Length; i++)
+        //播放音效
+        GameDataMgr.Instance.PlaySound("Music/Eat");
+
+        for (int i = 0; i < colliders.Length; i++)
         {
             if(MainTowerObject.Instance.gameObject==colliders[i].gameObject)
             {

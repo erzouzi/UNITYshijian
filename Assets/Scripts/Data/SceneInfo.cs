@@ -12,5 +12,6 @@ public class SceneInfo
     public string name;
     public string tips;
     public string sceneName;
-
+    public int money;
+    public int towerHp;
 }

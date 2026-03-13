@@ -132,6 +132,8 @@ public class ChooseHeroPanel : BasePanel
         nowRoleData=GameDataMgr.Instance.roleInfoList[nowIndex];
         //实例化对象 并记录下来 用于下次切换时 删除
         heroObj = Instantiate(Resources.Load<GameObject>(nowRoleData.res),heroPos.position,heroPos.rotation);
+        //由于我们现在在对象上挂载了PlayerObject 但是在开始场景时不需要
+        Destroy(heroObj.GetComponent<PlayerObject>());
         txtName.text = nowRoleData.tip;
         //根据解锁相关数据 来决定是否显示解锁按钮
         UpdateLockBtn(); 

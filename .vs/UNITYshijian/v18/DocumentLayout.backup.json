@@ -3,56 +3,28 @@
   "WorkspaceRootPath": "D:\\unitygongcheng\\UNITYshijian\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F1AE058E-6531-51AF-7CAF-62D79F23F743}|Assembly-CSharp.csproj|d:\\unitygongcheng\\unityshijian\\assets\\scripts\\gamescene\\object\\monsterobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F1AE058E-6531-51AF-7CAF-62D79F23F743}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamescene\\object\\monsterobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F1AE058E-6531-51AF-7CAF-62D79F23F743}|Assembly-CSharp.csproj|d:\\unitygongcheng\\unityshijian\\assets\\scripts\\beginscene\\ui\\chooseheropanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F1AE058E-6531-51AF-7CAF-62D79F23F743}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\beginscene\\ui\\chooseheropanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F1AE058E-6531-51AF-7CAF-62D79F23F743}|Assembly-CSharp.csproj|D:\\unitygongcheng\\UNITYshijian\\assets\\scripts\\gamescene\\object\\playerobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F1AE058E-6531-51AF-7CAF-62D79F23F743}|Assembly-CSharp.csproj|d:\\unitygongcheng\\unityshijian\\assets\\scripts\\gamescene\\object\\playerobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F1AE058E-6531-51AF-7CAF-62D79F23F743}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamescene\\object\\playerobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F1AE058E-6531-51AF-7CAF-62D79F23F743}|Assembly-CSharp.csproj|d:\\unitygongcheng\\unityshijian\\assets\\scripts\\gamescene\\object\\maintowerobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F1AE058E-6531-51AF-7CAF-62D79F23F743}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamescene\\object\\maintowerobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F1AE058E-6531-51AF-7CAF-62D79F23F743}|Assembly-CSharp.csproj|d:\\unitygongcheng\\unityshijian\\assets\\scripts\\gamescene\\gamelevelmgr.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F1AE058E-6531-51AF-7CAF-62D79F23F743}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamescene\\gamelevelmgr.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F1AE058E-6531-51AF-7CAF-62D79F23F743}|Assembly-CSharp.csproj|D:\\unitygongcheng\\UNITYshijian\\assets\\scripts\\data\\gamedatamgr.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F1AE058E-6531-51AF-7CAF-62D79F23F743}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\data\\gamedatamgr.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F1AE058E-6531-51AF-7CAF-62D79F23F743}|Assembly-CSharp.csproj|D:\\unitygongcheng\\UNITYshijian\\assets\\scripts\\data\\monsterinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F1AE058E-6531-51AF-7CAF-62D79F23F743}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\data\\monsterinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F1AE058E-6531-51AF-7CAF-62D79F23F743}|Assembly-CSharp.csproj|D:\\unitygongcheng\\UNITYshijian\\assets\\scripts\\gamescene\\ui\\gamepanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F1AE058E-6531-51AF-7CAF-62D79F23F743}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamescene\\ui\\gamepanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F1AE058E-6531-51AF-7CAF-62D79F23F743}|Assembly-CSharp.csproj|D:\\unitygongcheng\\UNITYshijian\\assets\\scripts\\ui\\uimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F1AE058E-6531-51AF-7CAF-62D79F23F743}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\uimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F1AE058E-6531-51AF-7CAF-62D79F23F743}|Assembly-CSharp.csproj|D:\\unitygongcheng\\UNITYshijian\\assets\\scripts\\ui\\basepanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F1AE058E-6531-51AF-7CAF-62D79F23F743}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\basepanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F1AE058E-6531-51AF-7CAF-62D79F23F743}|Assembly-CSharp.csproj|D:\\unitygongcheng\\UNITYshijian\\assets\\scripts\\gamescene\\cameramove.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F1AE058E-6531-51AF-7CAF-62D79F23F743}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamescene\\cameramove.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F1AE058E-6531-51AF-7CAF-62D79F23F743}|Assembly-CSharp.csproj|D:\\unitygongcheng\\UNITYshijian\\assets\\scripts\\gamescene\\ui\\towerbtn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F1AE058E-6531-51AF-7CAF-62D79F23F743}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamescene\\ui\\towerbtn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F1AE058E-6531-51AF-7CAF-62D79F23F743}|Assembly-CSharp.csproj|d:\\unitygongcheng\\unityshijian\\assets\\scripts\\gamescene\\monsterpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F1AE058E-6531-51AF-7CAF-62D79F23F743}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamescene\\monsterpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F1AE058E-6531-51AF-7CAF-62D79F23F743}|Assembly-CSharp.csproj|D:\\unitygongcheng\\UNITYshijian\\assets\\scripts\\beginscene\\ui\\choosescenepanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F1AE058E-6531-51AF-7CAF-62D79F23F743}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\beginscene\\ui\\choosescenepanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F1AE058E-6531-51AF-7CAF-62D79F23F743}|Assembly-CSharp.csproj|D:\\unitygongcheng\\UNITYshijian\\assets\\scripts\\beginscene\\ui\\chooseheropanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F1AE058E-6531-51AF-7CAF-62D79F23F743}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\beginscene\\ui\\chooseheropanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F1AE058E-6531-51AF-7CAF-62D79F23F743}|Assembly-CSharp.csproj|D:\\unitygongcheng\\UNITYshijian\\Assets\\Scripts\\Data\\SceneInfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F1AE058E-6531-51AF-7CAF-62D79F23F743}|Assembly-CSharp.csproj|solutionrelative:Assets\\Scripts\\Data\\SceneInfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F1AE058E-6531-51AF-7CAF-62D79F23F743}|Assembly-CSharp.csproj|d:\\unitygongcheng\\unityshijian\\assets\\scripts\\gamescene\\object\\monsterobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F1AE058E-6531-51AF-7CAF-62D79F23F743}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamescene\\object\\monsterobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -62,78 +34,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 3,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{c9c0ae26-aa77-11d2-b3f0-0000f87570ee}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:130:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "MonsterObject.cs",
-              "DocumentMoniker": "D:\\unitygongcheng\\UNITYshijian\\Assets\\Scripts\\GameScene\\Object\\MonsterObject.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\GameScene\\Object\\MonsterObject.cs",
-              "ToolTip": "D:\\unitygongcheng\\UNITYshijian\\Assets\\Scripts\\GameScene\\Object\\MonsterObject.cs",
-              "RelativeToolTip": "Assets\\Scripts\\GameScene\\Object\\MonsterObject.cs",
-              "ViewState": "AgIAAGwAAAAAAAAAAADwv34AAAA2AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-11T06:32:09.998Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "GameDataMgr.cs",
-              "DocumentMoniker": "D:\\unitygongcheng\\UNITYshijian\\Assets\\Scripts\\Data\\GameDataMgr.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Data\\GameDataMgr.cs",
-              "ToolTip": "D:\\unitygongcheng\\UNITYshijian\\Assets\\Scripts\\Data\\GameDataMgr.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Data\\GameDataMgr.cs",
-              "ViewState": "AgIAABwAAAAAAAAAAAAIwC0AAABUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-06T08:06:07.88Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "MainTowerObject.cs",
-              "DocumentMoniker": "D:\\unitygongcheng\\UNITYshijian\\Assets\\Scripts\\GameScene\\Object\\MainTowerObject.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\GameScene\\Object\\MainTowerObject.cs",
-              "ToolTip": "D:\\unitygongcheng\\UNITYshijian\\Assets\\Scripts\\GameScene\\Object\\MainTowerObject.cs",
-              "RelativeToolTip": "Assets\\Scripts\\GameScene\\Object\\MainTowerObject.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-11T06:31:25.957Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "MonsterInfo.cs",
-              "DocumentMoniker": "D:\\unitygongcheng\\UNITYshijian\\Assets\\Scripts\\Data\\MonsterInfo.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Data\\MonsterInfo.cs",
-              "ToolTip": "D:\\unitygongcheng\\UNITYshijian\\Assets\\Scripts\\Data\\MonsterInfo.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Data\\MonsterInfo.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAADwvw0AAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-10T07:54:01.398Z"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
@@ -142,116 +44,75 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\GameScene\\Object\\PlayerObject.cs",
               "ToolTip": "D:\\unitygongcheng\\UNITYshijian\\Assets\\Scripts\\GameScene\\Object\\PlayerObject.cs",
               "RelativeToolTip": "Assets\\Scripts\\GameScene\\Object\\PlayerObject.cs",
-              "ViewState": "AgIAAGMAAAAAAAAAAAAcwAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAEYAAAAAAAAAAAAuwE4AAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-10T05:19:17.312Z",
+              "WhenOpened": "2026-03-12T11:33:10.813Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "UIManager.cs",
-              "DocumentMoniker": "D:\\unitygongcheng\\UNITYshijian\\Assets\\Scripts\\UI\\UIManager.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\UIManager.cs",
-              "ToolTip": "D:\\unitygongcheng\\UNITYshijian\\Assets\\Scripts\\UI\\UIManager.cs",
-              "RelativeToolTip": "Assets\\Scripts\\UI\\UIManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-09T11:10:24.039Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "CameraMove.cs",
-              "DocumentMoniker": "D:\\unitygongcheng\\UNITYshijian\\Assets\\Scripts\\GameScene\\CameraMove.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\GameScene\\CameraMove.cs",
-              "ToolTip": "D:\\unitygongcheng\\UNITYshijian\\Assets\\Scripts\\GameScene\\CameraMove.cs",
-              "RelativeToolTip": "Assets\\Scripts\\GameScene\\CameraMove.cs",
-              "ViewState": "AgIAACEAAAAAAAAAAAAYwDIAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-09T08:05:54.951Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "GamePanel.cs",
-              "DocumentMoniker": "D:\\unitygongcheng\\UNITYshijian\\Assets\\Scripts\\GameScene\\UI\\GamePanel.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\GameScene\\UI\\GamePanel.cs",
-              "ToolTip": "D:\\unitygongcheng\\UNITYshijian\\Assets\\Scripts\\GameScene\\UI\\GamePanel.cs",
-              "RelativeToolTip": "Assets\\Scripts\\GameScene\\UI\\GamePanel.cs",
-              "ViewState": "AgIAACgAAAAAAAAAAAAAwEAAAAAeAAAAAAAAAA==",
+              "Title": "MonsterObject.cs",
+              "DocumentMoniker": "D:\\unitygongcheng\\UNITYshijian\\Assets\\Scripts\\GameScene\\Object\\MonsterObject.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\GameScene\\Object\\MonsterObject.cs",
+              "ToolTip": "D:\\unitygongcheng\\UNITYshijian\\Assets\\Scripts\\GameScene\\Object\\MonsterObject.cs",
+              "RelativeToolTip": "Assets\\Scripts\\GameScene\\Object\\MonsterObject.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAIwDkAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-08T08:40:51.835Z"
+              "WhenOpened": "2026-03-12T11:29:17.677Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "BasePanel.cs",
-              "DocumentMoniker": "D:\\unitygongcheng\\UNITYshijian\\Assets\\Scripts\\UI\\BasePanel.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\BasePanel.cs",
-              "ToolTip": "D:\\unitygongcheng\\UNITYshijian\\Assets\\Scripts\\UI\\BasePanel.cs",
-              "RelativeToolTip": "Assets\\Scripts\\UI\\BasePanel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAKAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "MonsterPoint.cs",
+              "DocumentMoniker": "D:\\unitygongcheng\\UNITYshijian\\Assets\\Scripts\\GameScene\\MonsterPoint.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\GameScene\\MonsterPoint.cs",
+              "ToolTip": "D:\\unitygongcheng\\UNITYshijian\\Assets\\Scripts\\GameScene\\MonsterPoint.cs",
+              "RelativeToolTip": "Assets\\Scripts\\GameScene\\MonsterPoint.cs",
+              "ViewState": "AgIAADkAAAAAAAAAAAAIwEcAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-08T08:52:03.046Z"
+              "WhenOpened": "2026-03-12T11:17:26.796Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "TowerBtn.cs",
-              "DocumentMoniker": "D:\\unitygongcheng\\UNITYshijian\\Assets\\Scripts\\GameScene\\UI\\TowerBtn.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\GameScene\\UI\\TowerBtn.cs",
-              "ToolTip": "D:\\unitygongcheng\\UNITYshijian\\Assets\\Scripts\\GameScene\\UI\\TowerBtn.cs",
-              "RelativeToolTip": "Assets\\Scripts\\GameScene\\UI\\TowerBtn.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-08T08:46:21.921Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "ChooseScenePanel.cs",
-              "DocumentMoniker": "D:\\unitygongcheng\\UNITYshijian\\Assets\\Scripts\\BeginScene\\UI\\ChooseScenePanel.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\BeginScene\\UI\\ChooseScenePanel.cs",
-              "ToolTip": "D:\\unitygongcheng\\UNITYshijian\\Assets\\Scripts\\BeginScene\\UI\\ChooseScenePanel.cs",
-              "RelativeToolTip": "Assets\\Scripts\\BeginScene\\UI\\ChooseScenePanel.cs",
-              "ViewState": "AgIAAEAAAAAAAAAAAAAAwE8AAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-06T08:10:47.979Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 0,
               "Title": "ChooseHeroPanel.cs",
               "DocumentMoniker": "D:\\unitygongcheng\\UNITYshijian\\Assets\\Scripts\\BeginScene\\UI\\ChooseHeroPanel.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\BeginScene\\UI\\ChooseHeroPanel.cs",
               "ToolTip": "D:\\unitygongcheng\\UNITYshijian\\Assets\\Scripts\\BeginScene\\UI\\ChooseHeroPanel.cs",
               "RelativeToolTip": "Assets\\Scripts\\BeginScene\\UI\\ChooseHeroPanel.cs",
-              "ViewState": "AgIAADcAAAAAAAAAAAAIwEgAAAAbAAAAAAAAAA==",
+              "ViewState": "AgIAAIoAAAAAAAAAAAAQwJQAAABGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-06T08:14:57.971Z"
+              "WhenOpened": "2026-03-12T08:16:25.054Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "SceneInfo.cs",
-              "DocumentMoniker": "D:\\unitygongcheng\\UNITYshijian\\Assets\\Scripts\\Data\\SceneInfo.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Data\\SceneInfo.cs",
-              "ToolTip": "D:\\unitygongcheng\\UNITYshijian\\Assets\\Scripts\\Data\\SceneInfo.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Data\\SceneInfo.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAADwvwcAAAAXAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "GameLevelMgr.cs",
+              "DocumentMoniker": "D:\\unitygongcheng\\UNITYshijian\\Assets\\Scripts\\GameScene\\GameLevelMgr.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\GameScene\\GameLevelMgr.cs",
+              "ToolTip": "D:\\unitygongcheng\\UNITYshijian\\Assets\\Scripts\\GameScene\\GameLevelMgr.cs",
+              "RelativeToolTip": "Assets\\Scripts\\GameScene\\GameLevelMgr.cs",
+              "ViewState": "AgIAAE0AAAAAAAAAAAAcwFEAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-06T08:04:14.487Z"
-            }
-          ]
-        },
-        {
-          "DockedWidth": 71,
-          "SelectedChildIndex": -1,
-          "Children": [
+              "WhenOpened": "2026-03-12T07:25:45.882Z",
+              "EditorCaption": ""
+            },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ChooseScenePanel.cs",
+              "DocumentMoniker": "D:\\unitygongcheng\\UNITYshijian\\Assets\\Scripts\\BeginScene\\UI\\ChooseScenePanel.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\BeginScene\\UI\\ChooseScenePanel.cs",
+              "ToolTip": "D:\\unitygongcheng\\UNITYshijian\\Assets\\Scripts\\BeginScene\\UI\\ChooseScenePanel.cs",
+              "RelativeToolTip": "Assets\\Scripts\\BeginScene\\UI\\ChooseScenePanel.cs",
+              "ViewState": "AgIAAEMAAAAAAAAAAAAAwDsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-06T08:10:47.979Z",
+              "EditorCaption": ""
             }
           ]
         }

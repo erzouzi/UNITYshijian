@@ -209,6 +209,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2041426561446129505}
   - component: {fileID: 5273607190879825099}
+  - component: {fileID: 3997316147489017568}
   m_Layer: 0
   m_Name: 2
   m_TagString: Untagged
@@ -278,6 +279,20 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &3997316147489017568
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 603756667768611291}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9acffb67b961777438d701ebccfba5bc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  money: 0
+  gunPoint: {fileID: 4839583701210101760}
 --- !u!1 &609991816341693242
 GameObject:
   m_ObjectHideFlags: 0

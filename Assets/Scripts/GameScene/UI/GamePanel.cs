@@ -39,6 +39,8 @@ public class GamePanel : BasePanel
 
         //一开始隐藏造塔相关UI
         botTrans.gameObject.SetActive(false);
+        //锁定鼠标
+        Cursor.lockState = CursorLockMode.Confined;
     }
 
     public void UpdateTowerHP(int hp,int maxHp)

@@ -111,6 +111,7 @@
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextMeshSpawner.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark02.cs" />
     <Compile Include="Assets\ArtRes\Top-Down Graveyard\_Origin\Standard Assets\Effects\ImageEffects\Scripts\Antialiasing.cs" />
+    <Compile Include="Assets\Scripts\GameScene\GameLevelMgr.cs" />
     <Compile Include="Assets\ArtRes\Top-Down Graveyard\_Origin\Standard Assets\Effects\ImageEffects\Scripts\ColorCorrectionRamp.cs" />
     <Compile Include="Assets\ArtRes\Top-Down Graveyard\_Origin\Standard Assets\Effects\ImageEffects\Scripts\ImageEffectBase.cs" />
     <Compile Include="Assets\Scripts\Data\MonsterInfo.cs" />
@@ -204,6 +205,7 @@
     <Compile Include="Assets\ArtRes\Top-Down Graveyard\_Origin\Standard Assets\Effects\ImageEffects\Scripts\PostEffectsHelper.cs" />
     <Compile Include="Assets\ArtRes\Top-Down Graveyard\_Origin\Standard Assets\Effects\ImageEffects\Scripts\BlurOptimized.cs" />
     <Compile Include="Assets\ArtRes\MagicArsenal\Effects\Scripts\MagicLightFade.cs" />
+    <Compile Include="Assets\Scripts\GameScene\UI\GameOverPanel.cs" />
     <Compile Include="Assets\ArtRes\Top-Down Graveyard\_Origin\Standard Assets\Effects\ImageEffects\Scripts\CameraMotionBlur.cs" />
     <Compile Include="Assets\ArtRes\MagicArsenal\Demo\Scripts\MagicLoopScript.cs" />
     <Compile Include="Assets\ArtRes\Top-Down Graveyard\_Origin\Standard Assets\Effects\ImageEffects\Scripts\EdgeDetection.cs" />

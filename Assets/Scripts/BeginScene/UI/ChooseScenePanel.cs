@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class ChooseScenePanel : BasePanel
@@ -49,8 +50,13 @@ public class ChooseScenePanel : BasePanel
             //隐藏当前面板
             UIManager.Instance.HidePanel<ChooseScenePanel>();
 
-            //切换场景
-
+			//切换场景
+			AsyncOperation ao = SceneManager.LoadSceneAsync(nowSceneInfo.sceneName);
+            //进行关卡初始化
+            ao.completed += (obj) =>
+            {
+                GameLevelMgr.Instance.InitInfo(nowSceneInfo);
+            };
 
         });
 

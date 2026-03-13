@@ -76,14 +76,24 @@ public class PlayerObject : MonoBehaviour
     /// <summary>
     /// 用于处理刀武器攻击动作的伤害检测事件
     /// </summary>
-    public void knifeEvent()
+    public void KnifeEvent()
     {
         //进行伤害检测
-        Collider[] colliders= Physics.OverlapSphere(this.transform.position+this.transform.forward*1.5f+Vector3.up, 1f, LayerMask.GetMask("Monster")); 
+        Collider[] colliders= Physics.OverlapSphere(this.transform.position+this.transform.forward*1.5f+Vector3.up, 1f, LayerMask.GetMask("Monster"));
+
+        //播放音效
+        GameDataMgr.Instance.PlaySound("Music/Knife");
+
 
         for(int i = 0; i < colliders.Length; i++)
         {
             //得到碰撞到对象上的怪物脚本 让其受伤 
+            MonsterObject monster = colliders[i].gameObject.GetComponent<MonsterObject>();
+            if (monster != null)
+            {
+                monster.Wound(this.atk);
+                break;
+            }
         }
     }
 
@@ -93,9 +103,24 @@ public class PlayerObject : MonoBehaviour
         //前提是需要有开火点
         RaycastHit[] hits= Physics.RaycastAll(new Ray(gunPoint.position, gunPoint.forward), 1000, LayerMask.GetMask("Monster"));
 
-        for(int i = 0;i < hits.Length; i++)
+        //播放音效
+        GameDataMgr.Instance.PlaySound("Music/Gun");
+
+        for (int i = 0;i < hits.Length; i++)
         {
             //得到碰撞到对象上的怪物脚本 让其受伤 
+            MonsterObject monster = hits[i].collider.gameObject.GetComponent<MonsterObject>();
+            if (monster != null)
+            {
+                //进行特效的创建
+                GameObject effObj = Instantiate(Resources.Load<GameObject>(GameDataMgr.Instance.nowSelRole.hitEff));
+                effObj.transform.position = hits[i].point;
+                effObj.transform.rotation = Quaternion.LookRotation(hits[i].normal);
+                Destroy(effObj,1f);
+
+                monster.Wound(this.atk);
+                break;
+            }
         }
     }
 
