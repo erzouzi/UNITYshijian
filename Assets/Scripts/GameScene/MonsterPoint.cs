@@ -70,7 +70,9 @@ public class MonsterPoint : MonoBehaviour
         monsterObject.InitInfo(monsterInfo);
 
         //告诉管理器怪物数量+1
-        GameLevelMgr.Instance.ChangeMonsterNum(1);
+        //GameLevelMgr.Instance.ChangeMonsterNum(1);
+        //记录怪物到列表中
+        GameLevelMgr.Instance.AddMonster(monsterObject);
         //创建完一直怪物后 减去要创建怪物数量1
         --nowNum;
         if (nowNum == 0)

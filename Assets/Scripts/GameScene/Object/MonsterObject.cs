@@ -86,7 +86,7 @@ public class MonsterObject : MonoBehaviour
     public void DeadEvent()
     {
         //死亡动画播放完毕后移除对象
-        GameLevelMgr.Instance.ChangeMonsterNum(-1);
+        GameLevelMgr.Instance.RemoveMonster(this);
         Destroy(this.gameObject,5f);
 
         //怪物死亡时 检测游戏是否结束

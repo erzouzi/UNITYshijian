@@ -118,6 +118,7 @@
     <Compile Include="Assets\Scripts\GameScene\CameraMove.cs" />
     <Compile Include="Assets\ArtRes\Top-Down Graveyard\_Origin\Standard Assets\Effects\ImageEffects\Scripts\SepiaTone.cs" />
     <Compile Include="Assets\Scripts\GameScene\Object\MonsterObject.cs" />
+    <Compile Include="Assets\Scripts\GameScene\Object\TowerObject.cs" />
     <Compile Include="Assets\ArtRes\GabrielAguiarProductions\Unique_Projectiles_Volume_1\Scripts\UniqueProjectiles\SpawnProjectilesScript.cs" />
     <Compile Include="Assets\ArtRes\Top-Down Graveyard\_Origin\Standard Assets\Effects\ImageEffects\Scripts\NoiseAndScratches.cs" />
     <Compile Include="Assets\ArtRes\Tower Defense\Standard Assets\Image Effects (Pro Only)\SSAOEffect.cs" />
@@ -172,6 +173,7 @@
     <Compile Include="Assets\ArtRes\Top-Down Graveyard\_Origin\Standard Assets\Effects\ImageEffects\Scripts\ContrastStretch.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextEventCheck.cs" />
     <Compile Include="Assets\ArtRes\Tower Defense\Standard Assets\Image Effects (Pro Only)\BlurEffect.cs" />
+    <Compile Include="Assets\Scripts\Data\TowerInfo.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_UiFrameRateCounter.cs" />
     <Compile Include="Assets\ArtRes\Tower Defense\Standard Assets\Image Effects (Pro Only)\VortexEffect.cs" />
     <Compile Include="Assets\Scripts\BeginScene\UI\BeginPanel.cs" />

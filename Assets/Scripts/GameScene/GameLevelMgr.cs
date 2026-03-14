@@ -16,8 +16,11 @@ public class GameLevelMgr
 	private int nowWaveNum = 0;
     //记录一共有多少波怪物
     private int maxWaveNum = 0;
-	//记录当前场景怪物的数量
-	private int nowMonsterNum = 0;
+	////记录当前场景怪物的数量
+	//private int nowmonsternum = 0;
+
+	//用于记录当前场景上怪物的列表
+	private List<MonsterObject> monsterList =new List<MonsterObject>();
 	private GameLevelMgr()
 	{
 
@@ -89,7 +92,7 @@ public class GameLevelMgr
 				return false;
 			}
 		}
-		if (nowMonsterNum > 0)
+		if (monsterList.Count > 0)
 		{
 			return false;
 		}
@@ -97,14 +100,71 @@ public class GameLevelMgr
 		return true;
 	}
 
+	///// <summary>
+	///// 改变当前场景上怪物的数量
+	///// </summary>
+	///// <param name="num"></param>
+	//public void ChangeMonsterNum(int num)
+	//{
+	//	nowMonsterNum += num;
+	//}
+
 	/// <summary>
-	/// 改变当前场景上怪物的数量
+	/// 记录怪物到怪物列表中
 	/// </summary>
-	/// <param name="num"></param>
-	public void ChangeMonsterNum(int num)
+	/// <param name="obj"></param>
+	public void AddMonster(MonsterObject obj)
 	{
-		nowMonsterNum += num;
+		monsterList.Add(obj);
 	}
+	/// <summary>
+	/// 将怪物从列表中移除 死亡时使用
+	/// </summary>
+	/// <param name="obj"></param>
+	public void RemoveMonster(MonsterObject obj)
+	{
+		monsterList.Remove(obj);
+	}
+
+
+    /// <summary>
+	/// 寻找满足距离条件 且没有死亡的单个怪物
+	/// </summary>
+	/// <param name="pos"></param>
+	/// <param name="Range"></param>
+	/// <returns></returns>
+	public MonsterObject FindMonster(Vector3 pos,int Range)
+	{
+		//在怪物列表中 找到满足距离条件 以及没有死亡的怪物 返回出去 用于塔攻击
+		for(int i=0; i<monsterList.Count; i++)
+		{
+			if (!monsterList[i].isDead && Vector3.Distance(pos, monsterList[i].transform.position) <= Range)
+			{
+				return monsterList[i];
+			}
+		}
+		return null;
+	}
+
+	/// <summary>
+	/// 寻找满足条件的所有怪物
+	/// </summary>
+	/// <param name="pos"></param>
+	/// <param name="Range"></param>
+	/// <returns></returns>
+	public List<MonsterObject> FindMonsters(Vector3 pos,int Range)
+	{
+		//去寻找满足条件的所有怪物 并且把它们记录在一个列表中
+		List<MonsterObject> list =new List<MonsterObject>();
+        for (int i = 0; i < monsterList.Count; i++)
+        {
+            if (!monsterList[i].isDead && Vector3.Distance(pos, monsterList[i].transform.position) <= Range)
+            {
+                list.Add(monsterList[i]);
+            }
+        }
+        return list;
+    }
 
 	/// <summary>
 	/// 清空当前关卡数据 避免影响下一次关卡
@@ -112,7 +172,8 @@ public class GameLevelMgr
 	public void ClearInfo()
 	{
 		monsterPoints.Clear();
-		nowMonsterNum = nowWaveNum = maxWaveNum = 0;
+		monsterList.Clear();
+		nowWaveNum = maxWaveNum = 0;
 		player = null;
 
 	}
