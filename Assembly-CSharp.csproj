@@ -183,6 +183,7 @@
     <Compile Include="Assets\ArtRes\PureNature\Scripts\CloudsVolume.cs" />
     <Compile Include="Assets\ArtRes\Top-Down Graveyard\_Origin\Standard Assets\Effects\ImageEffects\Scripts\DepthOfFieldDeprecated.cs" />
     <Compile Include="Assets\Scripts\GameScene\Object\PlayerObject.cs" />
+    <Compile Include="Assets\Scripts\GameScene\TowerPoint.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextSelector_B.cs" />
     <Compile Include="Assets\ArtRes\Top-Down Graveyard\_Origin\Standard Assets\Effects\ImageEffects\Scripts\TiltShift.cs" />
     <Compile Include="Assets\Scripts\Data\PlayerData.cs" />

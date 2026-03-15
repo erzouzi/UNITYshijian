@@ -1916,6 +1916,7 @@ GameObject:
   - component: {fileID: 7057432666949110891}
   - component: {fileID: 7409609006449457920}
   - component: {fileID: -6228353263029212540}
+  - component: {fileID: 3516062289515101606}
   m_Layer: 0
   m_Name: 4
   m_TagString: Untagged
@@ -1999,6 +2000,32 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   money: 0
   gunPoint: {fileID: 9207570099059972528}
+--- !u!143 &3516062289515101606
+CharacterController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5461112259712723024}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Height: 3
+  m_Radius: 0.5
+  m_SlopeLimit: 45
+  m_StepOffset: 0.3
+  m_SkinWidth: 0.08
+  m_MinMoveDistance: 0.001
+  m_Center: {x: 0, y: 1.5, z: 0}
 --- !u!1 &5646022092991531089
 GameObject:
   m_ObjectHideFlags: 0

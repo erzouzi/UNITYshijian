@@ -16,4 +16,21 @@ public class TowerBtn : MonoBehaviour
 
     public TMP_Text txtMoney;
 
+
+    /// <summary>
+    /// 初始化按钮信息
+    /// </summary>
+    /// <param name="id"></param>
+    /// <param name="inputStr"></param>
+    public void InitInfo(int id, string inputStr)
+    {
+        TowerInfo info =GameDataMgr.Instance.towerInfoList[id -1];
+        imgPic.sprite = Resources.Load<Sprite>(info.imgRes);
+        txtMoney.text = "￥" + info.money;
+        txtTip.text = inputStr;
+        //判断钱够不够
+        if (info.money > GameLevelMgr.Instance.player.money)
+            txtMoney.text = "金钱不足";
+    }
+
 }

@@ -31,7 +31,7 @@ public abstract class BasePanel : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    protected virtual void Update()
     {
         //当处于显示时，如果alpha不为1就会不停加到1 加到1就停止
         //淡入
