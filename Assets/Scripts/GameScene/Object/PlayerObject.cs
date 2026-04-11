@@ -101,7 +101,7 @@ public class PlayerObject : MonoBehaviour
     {
         //进行射线检测
         //前提是需要有开火点
-        RaycastHit[] hits= Physics.RaycastAll(new Ray(gunPoint.position, gunPoint.forward), 1000, LayerMask.GetMask("Monster"));
+        RaycastHit[] hits= Physics.RaycastAll(new Ray(gunPoint.position, this.transform.forward), 1000, LayerMask.GetMask("Monster"));
 
         //播放音效
         GameDataMgr.Instance.PlaySound("Music/Gun");
